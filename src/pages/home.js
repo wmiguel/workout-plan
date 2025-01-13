@@ -58,7 +58,7 @@ function Home() {
                     {today.workout.map((workout, index) => (
                       <tr key={index}>
                         <td className="font-medium p-2">{workout.exercise}</td>
-                        <td className="font-light p-2">{workout.reps}</td>
+                        <td className="font-light p-2 w-24">{workout.reps}</td>
                       </tr>
                     ))}
                   </tbody>
