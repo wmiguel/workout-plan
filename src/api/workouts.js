@@ -1,27 +1,31 @@
 const workouts = [
   {
     day: "Monday",
-    title: "Chest, Triceps, and Shoulders",
+    title: "Chest, Shoulders, Triceps, and Forearms",
     workout: [
       {
         exercise: "Incline Bench Press (D/B)",
-        reps: "3x10-12",
+        reps: "2x12",
       },
       {
         exercise: "Flat Bench Press (D/B)",
-        reps: "3x10-12",
+        reps: "2x12",
       },
       {
         exercise: "Shoulder Press / Arnold Press",
-        reps: "3x10-12",
+        reps: "2x12-15",
       },
       {
         exercise: "Lateral Raise",
-        reps: "3x10-15",
+        reps: "3x15",
       },
       {
         exercise: "Tricep Extension",
-        reps: "3x10-15",
+        reps: "3x15",
+      },
+      {
+        exercise: "Wrist Curls (Hands on Knees)",
+        reps: "2x20-25",
       },
     ],
   },
